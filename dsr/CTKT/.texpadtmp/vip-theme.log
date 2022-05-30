@@ -1,0 +1,653 @@
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xetex 2021.12.14)  30 MAY 2022 07:50
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**vip-theme.cls
+(./vip-theme.cls
+./vip-theme.cls:7: Undefined control sequence.
+l.7 \RequirePackage
+                   [a4paper,marginparwidth={2.5cm},vmargin={2.5cm}]{geometry}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:8: Undefined control sequence.
+l.8 \RequirePackage
+                   {fontspec}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:9: Undefined control sequence.
+l.9 \RequirePackage
+                   {titlesec}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:10: Undefined control sequence.
+l.10 \RequirePackage
+                    {graphicx}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:11: Undefined control sequence.
+l.11 \RequirePackage
+                    [colorlinks,linkcolor=blue]{hyperref}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:12: Undefined control sequence.
+l.12 \RequirePackage
+                    {caption,subcaption}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:13: Undefined control sequence.
+l.13 \RequirePackage
+                    {amsmath,amsthm,amscd,amssymb}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:14: Undefined control sequence.
+l.14 \RequirePackage
+                    {mathtools}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (71.24623pt too wide) in paragraph at lines 7--15
+[]\tenrm [a4paper,marginparwidth=2.5cm,vmargin=2.5cm]geometry fontspec ti-tlesec graph-icx [col-or-links,linkcolor=blue]hyperref|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm [
+.\tenrm a
+.\tenrm 4
+.\tenrm p
+.etc.
+
+./vip-theme.cls:16: Undefined control sequence.
+l.16 \RequirePackage
+                    {subcaption}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:18: Undefined control sequence.
+l.18 \RequirePackage
+                    {marginnote}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:19: Undefined control sequence.
+l.19 \RequirePackage
+                    {multirow}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:20: Undefined control sequence.
+l.20 \RequirePackage
+                    [table,xcdraw]{xcolor}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:22: Undefined control sequence.
+l.22 \RequirePackage
+                    {listings}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:23: Undefined control sequence.
+l.23 \RequirePackage
+                    {color}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:24: Undefined control sequence.
+l.24 \RequirePackage
+                    {fancyhdr,manfnt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:25: Undefined control sequence.
+l.25 \RequirePackage
+                    {footmisc}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:27: Undefined control sequence.
+l.27 \ProvidesClass
+                   {vip-thesis}[2022/5/30]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:28: Undefined control sequence.
+l.28 \NeedsTeXFormat
+                    {LaTeX2e}[2005/12/01]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:29: Undefined control sequence.
+l.29 \LoadClass
+               [14px]{article}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:32: Undefined control sequence.
+l.32 \pagestyle
+               {fancy} \columnsep=10mm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:32: Undefined control sequence.
+l.32 \pagestyle{fancy} \columnsep
+                                 =10mm
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:34: Undefined control sequence.
+l.34 \fancyhead
+               [L]{\href{https://www.tang5618.com/posts/DSR/PMBANet/}{\inclu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:34: Undefined control sequence.
+l.34 \fancyhead[L]{\href
+                        {https://www.tang5618.com/posts/DSR/PMBANet/}{\inclu...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:34: Undefined control sequence.
+l.34 ...8.com/posts/DSR/PMBANet/}{\includegraphics
+                                                  [scale=0.2]{logo.png}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:35: Undefined control sequence.
+l.35 \fancyhead
+               [R]{\thepage}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:35: Undefined control sequence.
+l.35 \fancyhead[R]{\thepage
+                           }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:36: Undefined control sequence.
+l.36 \fancyfoot
+               [C]{\href{https://www.tang5618.com/}{\includegraphics[scale=0...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:36: Undefined control sequence.
+l.36 \fancyfoot[C]{\href
+                        {https://www.tang5618.com/}{\includegraphics[scale=0...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:36: Undefined control sequence.
+l.36 ...ttps://www.tang5618.com/}{\includegraphics
+                                                  [scale=0.07]{qtang.png}}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (187.2454pt too wide) in paragraph at lines 32--37
+[]\tenrm fancy =10mm [L]https://www.tang5618.com/posts/DSR/PMBANet/[scale=0.2]logo.png [R] [C]https://www.tang5618.com/[scale=0.07]qtang.png |
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm f
+.\tenrm a
+.\tenrm n
+.\tenrm c
+.etc.
+
+./vip-theme.cls:39: Undefined control sequence.
+l.39 \setCJKfamilyfont
+                      {fangsong}{STFongsong}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:40: Undefined control sequence.
+l.40 \newcommand
+                {\fangsong}{\CJKfamily{fangsong}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:40: Undefined control sequence.
+l.40 \newcommand{\fangsong
+                          }{\CJKfamily{fangsong}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:40: Undefined control sequence.
+l.40 \newcommand{\fangsong}{\CJKfamily
+                                      {fangsong}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:41: Undefined control sequence.
+l.41 \setmainfont
+                 {Times New Roman}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:44: Undefined control sequence.
+l.44 \makeatletter
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:45: Undefined control sequence.
+l.45 \renewcommand
+                  {\maketitle}{\bgroup\setlength{\parindent}{0pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:45: Undefined control sequence.
+l.45 \renewcommand{\maketitle
+                             }{\bgroup\setlength{\parindent}{0pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:45: Undefined control sequence.
+l.45 \renewcommand{\maketitle}{\bgroup\setlength
+                                                {\parindent}{0pt}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:45: Missing number, treated as zero.
+<to be read again> 
+                   }
+l.45 ...{\maketitle}{\bgroup\setlength{\parindent}
+                                                  {0pt}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./vip-theme.cls:45: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.45 ...{\maketitle}{\bgroup\setlength{\parindent}
+                                                  {0pt}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./vip-theme.cls:46: Undefined control sequence.
+l.46 \@
+       title\\[0.5em]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:48: Argument of \\ has an extra }.
+<inserted text> 
+                \par 
+<to be read again> 
+                   }
+l.48 \egroup}
+             
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+[0.5em] \large \textit {\@author} \egroup 
+./vip-theme.cls:48: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+<to be read again> 
+                   }
+l.48 \egroup}
+             
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+./vip-theme.cls:49: Undefined control sequence.
+l.49 \makeatother
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:52: Undefined control sequence.
+l.52 \makeatletter
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:53: Undefined control sequence.
+l.53 \makeatother
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:56: Undefined control sequence.
+l.56 \RequirePackage
+                    [linesnumbered,ruled,vlined]{algorithm2e}%[ruled,vlined]{
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:57: Undefined control sequence.
+l.57 \RequirePackage
+                    {algpseudocode}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:58: Undefined control sequence.
+l.58 \RequirePackage
+                    {amsmath}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:59: Undefined control sequence.
+l.59 \renewcommand
+                  {\algorithmicrequire}{\textbf{Input:}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:59: Undefined control sequence.
+l.59 \renewcommand{\algorithmicrequire
+                                      }{\textbf{Input:}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:59: Undefined control sequence.
+l.59 \renewcommand{\algorithmicrequire}{\textbf
+                                               {Input:}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:60: Undefined control sequence.
+l.60 \renewcommand
+                  {\algorithmicensure}{\textbf{Output:}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:60: Undefined control sequence.
+l.60 \renewcommand{\algorithmicensure
+                                     }{\textbf{Output:}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:60: Undefined control sequence.
+l.60 \renewcommand{\algorithmicensure}{\textbf
+                                              {Output:}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:63: Undefined control sequence.
+l.63 \definecolor
+                 {gray}{rgb}{0.96,0.96,0.96}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:65: Undefined control sequence.
+l.65 \lstset
+            { %
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:67: Undefined control sequence.
+l.67   basicstyle=\footnotesize
+                               ,           % the size of the fonts that are ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:70: Undefined control sequence.
+l.70   numberstyle=\tiny
+                        \color{black},  % the style that is used for the lin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:70: Undefined control sequence.
+l.70   numberstyle=\tiny\color
+                              {black},  % the style that is used for the lin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:74: Undefined control sequence.
+l.74   backgroundcolor=\color
+                             {gray},      % choose the background color. You...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:81: Undefined control sequence.
+l.81   rulecolor=\color
+                       [RGB]{158,193,243},        % if not set, the frame-co...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:88: Undefined control sequence.
+l.88   title=\lstname
+                     ,                   % show the filename of files includ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:90: Undefined control sequence.
+l.90   keywordstyle=\color
+                          [RGB]{0,51,179},          % keyword style
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:91: Undefined control sequence.
+l.91   commentstyle=\color
+                          [RGB]{140,140,140},       % comment style
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:92: Undefined control sequence.
+l.92   stringstyle=\color
+                         [RGB]{6,125,23},         % string literal style
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./vip-theme.cls:93: Undefined control sequence.
+l.93   identifierstyle=\color
+                             {black},
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> vip-theme.cls
+                 
+*** (job aborted, no legal \end found)
+
+No pages of output.

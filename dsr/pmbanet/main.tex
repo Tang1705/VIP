@@ -1,104 +1,20 @@
 % !TeX encoding = UTF-8
-\documentclass[14px]{article}
+\documentclass{vip-theme}
 
 % 中文支持
-\usepackage[UTF8]{ctex}
-
-% 加载需要的包
-% 定义纸张大小和边界
-\usepackage[a4paper,marginparwidth={2.5cm},vmargin={2.5cm}]{geometry}
-\usepackage{fontspec}
-\usepackage{titlesec}
-\usepackage{graphicx}
-\usepackage[colorlinks,linkcolor=blue]{hyperref}
-\usepackage{caption,subcaption}
-\usepackage{amsmath,amsthm,amscd,amssymb}
-\usepackage{mathtools}
-
-\usepackage{subcaption}
-% 边注
-\usepackage{marginnote}
-\usepackage{multirow}
-\usepackage[table,xcdraw]{xcolor}
-% 代码
-\usepackage{listings}
-\usepackage{color}
-\usepackage{fancyhdr,manfnt}
-\usepackage{footmisc}
-
-% 纸张样式
-\pagestyle{fancy} \columnsep=10mm
-% 页眉页脚
-\fancyhead[L]{\href{https://www.tang5618.com/posts/DSR/PMBANet/}{\includegraphics[scale=0.2]{logo.png}}} 
-\fancyhead[R]{\thepage} 
-\fancyfoot[C]{\href{https://www.tang5618.com/}{\includegraphics[scale=0.07]{qtang.png}}}
+\usepackage{xeCJK}
+%\usepackage[UTF8]{ctex}
+\linespread{1.47}
 
 % 全文字体
 \setmainfont{Times New Roman}
 
-% title 和 author 左对齐
-\makeatletter
-\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
-\@title\\[0.5em]
-\large\textit{\@author}
-\egroup}
-\makeatother
-
-% 定义算法伪代码样式
-\makeatletter
-\makeatother
-\let\algorithm\relax
-\let\endalgorithm\relax
-\usepackage[linesnumbered,ruled,vlined]{algorithm2e}%[ruled,vlined]{
-\usepackage{algpseudocode}
-\usepackage{amsmath}
-\renewcommand{\algorithmicrequire}{\textbf{Input:}}
-\renewcommand{\algorithmicensure}{\textbf{Output:}}
-
-% 定义代码样式
-\definecolor{gray}{rgb}{0.96,0.96,0.96}
-
-\lstset{ %
-  language=python,                % the language of the code
-  basicstyle=\footnotesize,           % the size of the fonts that are used for the code
-  numbers=left,                   % where to put the line-numbers
-  columns=fixed, 
-  numberstyle=\tiny\color{black},  % the style that is used for the line-numbers
-  stepnumber=1,                   % the step between two line-numbers. If it's 1, each line 
-                                  % will be numbered
-  numbersep=5pt,                  % how far the line-numbers are from the code
-  backgroundcolor=\color{gray},      % choose the background color. You must add \usepackage{color}
-  showspaces=false,               % show spaces adding particular underscores
-  showstringspaces=false,         % underline spaces within strings
-  showtabs=false,                 % show tabs within strings adding particular underscores
-  frame=single,,                 % adds a frame around the code
-  frameround = tttt,
-  framexleftmargin=3mm, 
-  rulecolor=\color[RGB]{158,193,243},        % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. commens (green here))
-%  aboveskip=1em,
-  tabsize=2,                      % sets default tabsize to 2 spaces
-  captionpos=b,                   % sets the caption-position to bottom
-  breaklines=true,                % sets automatic line breaking
-  extendedchars=false,   
-  breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
-  title=\lstname,                   % show the filename of files included with \lstinputlisting;
-                                  % also try caption instead of title
-  keywordstyle=\color[RGB]{0,51,179},          % keyword style
-  commentstyle=\color[RGB]{140,140,140},       % comment style
-  stringstyle=\color[RGB]{6,125,23},         % string literal style
-  identifierstyle=\color{black},
-  escapeinside={\%*}{*)},            % if you want to add LaTeX within your code
-  morekeywords={*,...}               % if you want to add more keywords to the set
-}
-
-
-\title{\Huge{PMBANet: Progressive Multi-Branch Aggregation Network for Scene Depth Super-Resolution}}
+\title{PMBANet: Progressive Multi-Branch Aggregation Network for Scene Depth Super-Resolution}
 \author{
 	Xinchen Ye , Baoli Sun, Zhihui Wang, Jingyu Yang, Rui Xu , Haojie Li, and Baopu Li %\\[0.5em]
 %	$^{1}$School in China \\[0.5em]
 %	$^{2}$School in UK
 }
-
 
 \begin{document}
 
@@ -119,7 +35,7 @@ Depth map super-resolution is an ill-posed inverse problem with many challenges.
 
 \begin{figure}[!htbp]
 \centering
-	\includegraphics[width=\textwidth]{img/motivation}
+	\includegraphics[width=\textwidth]{figure/motivation}
 	\caption{（a）深度图像 ground truth；（b）彩色图像；重建深度图像与深度图像 ground truth 的误差图：（c）$4\times$；（d）$8\times$；（e）$16\times$ }
 	\label{fig:motivation}
 \end{figure}
@@ -164,7 +80,7 @@ x^{*}=\underset{x}{\arg \min } \frac{1}{2}\|y-K x\|^{2}+\lambda \sum_{l} \omega_
 
 \begin{figure*}[!htbp]
 \centering
-	\includegraphics[width=.7\paperwidth]{img/model.png}
+	\includegraphics[width=.7\paperwidth]{figure/model.png}
 	\caption{PMBANet 的网络架构。为了更好地呈现整个框架和实现细节，使用不同颜色的矩形来表示不同的阶段和每个阶段的不同操作。}
 	\label{fig:model}
 \end{figure*}
@@ -196,13 +112,13 @@ x^{*}=\underset{x}{\arg \min } \frac{1}{2}\|y-K x\|^{2}+\lambda \sum_{l} \omega_
 \begin{figure}[!htbp]
 	\begin{minipage}[t]{0.5\linewidth}
 		\centering
-		\includegraphics[height=1.5in,width=2.8in]{img/RB}
+		\includegraphics[height=1.5in,width=2.8in]{figure/RB}
 		\caption{重建支路}
 		\label{fig:RB}
 	\end{minipage}
 	\begin{minipage}[t]{0.5\linewidth}
 		\centering
-		\includegraphics[height=1.5in,width=2.8in]{img/AF}
+		\includegraphics[height=1.5in,width=2.8in]{figure/AF}
 		\caption{基于注意力的误差反馈模块 }
 		\label{fig:AF}
 	\end{minipage}
@@ -254,13 +170,13 @@ F_{R B}^{k}=\operatorname{Conv}_{1 \times 1}^{k}\left(\left[F_{h r}^{1, k}, F_{h
 \begin{figure}[!htbp]
 	\begin{minipage}[t]{0.5\linewidth}
 		\centering
-		\includegraphics[height=1.5in,width=2.8in]{img/MB}
+		\includegraphics[height=1.5in,width=2.8in]{figure/MB}
 		\caption{多尺度支路}
 		\label{fig:MB}
 	\end{minipage}
 	\begin{minipage}[t]{0.5\linewidth}
 		\centering
-		\includegraphics[height=1.2in,width=2.8in]{img/FB}
+		\includegraphics[height=1.2in,width=2.8in]{figure/FB}
 		\caption{融合模块}
 		\label{fig:FB}
 	\end{minipage}
@@ -315,7 +231,7 @@ F_{H R}^{k} &=F_{H R_{-} F}^{k}+F_{H R_{-} F}^{k} * \sigma\left(F_{H R_{-} F 3}^
 \caption{在 Middlebury 2005 数据集上的性能对比}
 \label{tab:middlebury}
 \renewcommand{\arraystretch}{1.2}
-		\setlength{\tabcolsep}{.01mm}{
+		\setlength{\tabcolsep}{.25mm}{
 \begin{tabular}{c|ccc|ccc|ccc|ccc|ccc|ccc}
 \hline
 \multirow{2}{*}{} & \multicolumn{3}{c|}{Art} & \multicolumn{3}{c|}{Books} & \multicolumn{3}{c|}{Dolls} & \multicolumn{3}{c|}{Laundry} & \multicolumn{3}{c|}{Mobius} & \multicolumn{3}{c}{Reindeer} \\
@@ -347,7 +263,7 @@ Ours   & \textbf{0.26}/{\color{blue}\textbf{1.95}} & \textbf{0.51}/{\color{blue}
 
 \begin{figure*}[!htbp]
 \centering
-	\includegraphics[width=.7\paperwidth]{img/experiments1.png}
+	\includegraphics[width=.7\paperwidth]{figure/experiments1.png}
 	\caption{在 Middlebury 数据集上不同模型在 $8\times$ 上采样结果的视觉比较。（a）真实深度图像和彩色图像；（b）低分辨率图像；（c）Bicubic；（d）JGF；（e）DGDIE；（f）DEIN；（g）GSRPT；（h）PMBANet；（i）真实深度图像。}
 	\label{fig:experiment}
 \end{figure*}
