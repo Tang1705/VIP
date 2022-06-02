@@ -1,0 +1,54 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\providecommand \oddpage@label [2]{}
+\newlabel{title}{{}{1}{}{Doc-Start}{}}
+\newlabel{abstract}{{}{1}{}{Doc-Start}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Motivation}{1}{section.1}\protected@file@percent }
+\newlabel{motivation}{{1}{1}{Motivation}{section.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Illustration of AdaBins: \textbf  {Top}: input RGB images. \textbf  {Middle}: depth predicted by our model. \textbf  {Bottom}: histogram of depth values of the ground truth (blue) and histogram of the predicted adaptive depth-bin-centers (red) with depth values increasing from left to right. Note that the predicted bin-centers are focused near smaller depth values for closeup images but are widely distributed for images with a wider range of depth values. \relax }}{1}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:idea-illustration}{{1}{1}{Illustration of AdaBins: \textbf {Top}: input RGB images. \textbf {Middle}: depth predicted by our model. \textbf {Bottom}: histogram of depth values of the ground truth (blue) and histogram of the predicted adaptive depth-bin-centers (red) with depth values increasing from left to right. Note that the predicted bin-centers are focused near smaller depth values for closeup images but are widely distributed for images with a wider range of depth values. \relax }{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Contribution}{2}{section.2}\protected@file@percent }
+\newlabel{contribution}{{2}{2}{Contribution}{section.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{2}{section.3}\protected@file@percent }
+\newlabel{method}{{3}{2}{Method}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}AdaBins 的设计}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Choices for bin widths. Uniform and Log-uniform bins are pre-determined. `Trained bins' vary from one dataset to another. Adaptive bins vary for each input image.\relax }}{3}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:binchoices}{{2}{3}{Choices for bin widths. Uniform and Log-uniform bins are pre-determined. `Trained bins' vary from one dataset to another. Adaptive bins vary for each input image.\relax }{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}架构描述}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Overview of our proposed network architecture. Our architecture consists of two major components: an encoder- decoder block and our proposed adaptive bin-width estimator block called AdaBins. The input to our network is an RGB image of spatial dimensions H and W , and the output is a single channel h × w depth image (e.g., half the spatial resolution).\relax }}{3}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:model}{{3}{3}{Overview of our proposed network architecture. Our architecture consists of two major components: an encoder- decoder block and our proposed adaptive bin-width estimator block called AdaBins. The input to our network is an RGB image of spatial dimensions H and W , and the output is a single channel h × w depth image (e.g., half the spatial resolution).\relax }{figure.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A straightforward encoder-decoder architecture with skip connections. The encoder part is a pre-trained truncated DenseNet-169 with no additional modifications. The decoder is composed of basic blocks of convolutional layers applied on the concatenation of the $2\times $ bilinear upsampling of the previous block with the block in the encoder with the same spatial size after upsampling. \relax }}{4}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:model2}{{4}{4}{A straightforward encoder-decoder architecture with skip connections. The encoder part is a pre-trained truncated DenseNet-169 with no additional modifications. The decoder is composed of basic blocks of convolutional layers applied on the concatenation of the $2\times $ bilinear upsampling of the previous block with the block in the encoder with the same spatial size after upsampling. \relax }{figure.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Mini-ViT architecture details.\relax }}{4}{table.caption.5}\protected@file@percent }
+\newlabel{tab:arch-mvit}{{1}{4}{Mini-ViT architecture details.\relax }{table.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Mini-ViT}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces An overview of the mini-ViT block. The input to the block is a multi-channel feature map of the input image. The block includes a Transformer encoder that is applied on patch embeddings of the input for the purpose of learning to estimate bin widths $b$ and a set of convolutional kernels needed to compute our Range-Attention-Maps $R$.\relax }}{5}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:vit}{{5}{5}{An overview of the mini-ViT block. The input to the block is a multi-channel feature map of the input image. The block includes a Transformer encoder that is applied on patch embeddings of the input for the purpose of learning to estimate bin widths $b$ and a set of convolutional kernels needed to compute our Range-Attention-Maps $R$.\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Mini-ViT}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Range attention maps}{5}{subsubsection.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiments}{6}{section.4}\protected@file@percent }
+\newlabel{experimentes}{{4}{6}{Experiments}{section.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison of different design choices for bin-widths and regression. AdaBins module results in a significant boost in performance. Base: encoder-decoder with an EfficientNet B5 encoder. R: standard regression. HR: Hybrid Regression. (Log)Uniform-Fix: Fixed (log) uniform bin-widths. Train-Fix: Trained bin-widths but Fixed for each dataset.\relax }}{6}{table.caption.7}\protected@file@percent }
+\newlabel{tab:ablation-arch}{{2}{6}{Comparison of different design choices for bin-widths and regression. AdaBins module results in a significant boost in performance. Base: encoder-decoder with an EfficientNet B5 encoder. R: standard regression. HR: Hybrid Regression. (Log)Uniform-Fix: Fixed (log) uniform bin-widths. Train-Fix: Trained bin-widths but Fixed for each dataset.\relax }{table.caption.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparison of performances on the NYU-Depth-v2 dataset. The reported numbers are from the corresponding original papers. Best results are in bold, second best are underlined.\relax }}{7}{table.caption.8}\protected@file@percent }
+\newlabel{tab:results-nyu}{{3}{7}{Comparison of performances on the NYU-Depth-v2 dataset. The reported numbers are from the corresponding original papers. Best results are in bold, second best are underlined.\relax }{table.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Qualitative comparison with the state-of-the-art on the NYU-Depth-v2 dataset.\relax }}{7}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:qualitative-comparison}{{6}{7}{Qualitative comparison with the state-of-the-art on the NYU-Depth-v2 dataset.\relax }{figure.caption.9}{}}
+\gdef \@abspage@last{7}

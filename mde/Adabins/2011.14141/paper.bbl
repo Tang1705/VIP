@@ -1,0 +1,334 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{Alhashim2018}
+Ibraheem Alhashim and Peter Wonka.
+\newblock High quality monocular depth estimation via transfer learning.
+\newblock {\em CoRR}, abs/1812.11941, 2018.
+
+\bibitem{detr2020}
+Nicolas Carion, Francisco Massa, Gabriel Synnaeve, Nicolas Usunier, Alexander
+  Kirillov, and Sergey Zagoruyko.
+\newblock End-to-end object detection with transformers.
+\newblock In Andrea Vedaldi, Horst Bischof, Thomas Brox, and Jan-Michael Frahm,
+  editors, {\em Computer Vision -- ECCV 2020}, pages 213--229, Cham, 2020.
+  Springer International Publishing.
+
+\bibitem{deeplabv3plus2018}
+Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, and Hartwig
+  Adam.
+\newblock Encoder-decoder with atrous separable convolution for semantic image
+  segmentation.
+\newblock In {\em ECCV}, 2018.
+
+\bibitem{ijcai2019-98}
+Xiaotian Chen, Xuejin Chen, and Zheng-Jun Zha.
+\newblock Structure-aware residual pyramid network for monocular depth
+  estimation.
+\newblock In {\em Proceedings of the Twenty-Eighth International Joint
+  Conference on Artificial Intelligence, {IJCAI-19}}, pages 694--700.
+  International Joint Conferences on Artificial Intelligence Organization, 7
+  2019.
+
+\bibitem{Cornia_2020_CVPR}
+Marcella Cornia, Matteo Stefanini, Lorenzo Baraldi, and Rita Cucchiara.
+\newblock Meshed-memory transformer for image captioning.
+\newblock In {\em IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, June 2020.
+
+\bibitem{dosovitskiy2020}
+Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn,
+  Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg
+  Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby.
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale.
+\newblock {\em arXiv preprint arXiv:2010.11929}, 2020.
+
+\bibitem{DepthLab2020}
+Ruofei Du, Eric~Lee Turner, Maksym Dzitsiuk, Luca Prasso, Ivo Duarte, Jason
+  Dourgarian, Joao Afonso, Jose Pascoal, Josh Gladstone, Nuno~Moura e
+  Silva~Cruces, Shahram Izadi, Adarsh Kowdle, Konstantine Nicholas~John
+  Tsotsos, and David Kim.
+\newblock Depthlab: Real-time 3d interaction with depth maps for mobile
+  augmented reality.
+\newblock In {\em Proceedings of the 33rd Annual ACM Symposium on User
+  Interface Software and Technology}, page~15, 2020.
+
+\bibitem{Eigen2014}
+David Eigen, Christian Puhrsch, and Rob Fergus.
+\newblock Depth map prediction from a single image using a multi-scale deep
+  network.
+\newblock In {\em NIPS}, 2014.
+
+\bibitem{Fan2017_chamfer_loss}
+H. {Fan}, H. {Su}, and L. {Guibas}.
+\newblock A point set generation network for 3d object reconstruction from a
+  single image.
+\newblock In {\em 2017 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 2463--2471, 2017.
+
+\bibitem{Dosovitskiy2015}
+Philipp Fischer, Alexey Dosovitskiy, Eddy Ilg, Philip H{\"a}usser, Caner
+  Hazirbas, Vladimir Golkov, Patrick van~der Smagt, Daniel Cremers, and Thomas
+  Brox.
+\newblock Flownet: Learning optical flow with convolutional networks.
+\newblock {\em 2015 IEEE International Conference on Computer Vision (ICCV)},
+  pages 2758--2766, 2015.
+
+\bibitem{Fu2018DeepOR}
+Huan Fu, Mingming Gong, Chaohui Wang, Nematollah Batmanghelich, and Dacheng
+  Tao.
+\newblock Deep ordinal regression network for monocular depth estimation.
+\newblock {\em 2018 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition}, pages 2002--2011, 2018.
+
+\bibitem{Gan2018}
+Yukang Gan, Xiangyu Xu, Wenxiu Sun, and Liang Lin.
+\newblock Monocular depth estimation with affinity, vertical pooling, and label
+  enhancement.
+\newblock In Vittorio Ferrari, Martial Hebert, Cristian Sminchisescu, and Yair
+  Weiss, editors, {\em Computer Vision -- ECCV 2018}, pages 232--247, Cham,
+  2018. Springer International Publishing.
+
+\bibitem{garg10.1007/978-3-319-46484-8_45}
+Ravi Garg, Vijay~Kumar B.G., Gustavo Carneiro, and Ian Reid.
+\newblock Unsupervised cnn for single view depth estimation: Geometry to the
+  rescue.
+\newblock In Bastian Leibe, Jiri Matas, Nicu Sebe, and Max Welling, editors,
+  {\em Computer Vision -- ECCV 2016}, pages 740--756, Cham, 2016. Springer
+  International Publishing.
+
+\bibitem{geiger2013vision}
+Andreas Geiger, Philip Lenz, Christoph Stiller, and Raquel Urtasun.
+\newblock Vision meets robotics: The kitti dataset.
+\newblock {\em I. J. Robotics Res.}, 32:1231--1237, 2013.
+
+\bibitem{Godard2017}
+Cl{\'e}ment Godard, Oisin~Mac Aodha, and Gabriel~J. Brostow.
+\newblock Unsupervised monocular depth estimation with left-right consistency.
+\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 6602--6611, 2017.
+
+\bibitem{Hao2018DetailPD}
+Zhixiang Hao, Yu Li, Shaodi You, and Feng Lu.
+\newblock Detail preserving depth estimation from a single image using
+  attention guided networks.
+\newblock {\em 2018 International Conference on 3D Vision (3DV)}, pages
+  304--313, 2018.
+
+\bibitem{Hazirbas2016FuseNetID}
+Caner Hazirbas, Lingni Ma, Csaba Domokos, and Daniel Cremers.
+\newblock Fusenet: Incorporating depth into semantic segmentation via
+  fusion-based cnn architecture.
+\newblock In {\em ACCV}, 2016.
+
+\bibitem{transf_obj_NEURIPS2019_680390c5}
+Simao Herdade, Armin Kappeler, Kofi Boakye, and Joao Soares.
+\newblock Image captioning: Transforming objects into words.
+\newblock In H. Wallach, H. Larochelle, A. Beygelzimer, F. d\textquotesingle
+  Alch\'{e}-Buc, E. Fox, and R. Garnett, editors, {\em Advances in Neural
+  Information Processing Systems}, volume~32, pages 11137--11147. Curran
+  Associates, Inc., 2019.
+
+\bibitem{Hu2018RevisitingSI}
+Junjie Hu, Mete Ozay, Yan Zhang, and Takayuki Okatani.
+\newblock Revisiting single image depth estimation: Toward higher resolution
+  maps with accurate object boundaries.
+\newblock {\em 2019 IEEE Winter Conference on Applications of Computer Vision
+  (WACV)}, pages 1043--1051, 2018.
+
+\bibitem{huang2017densely}
+Gao Huang, Zhuang Liu, Laurens van~der Maaten, and Kilian~Q. Weinberger.
+\newblock Densely connected convolutional networks.
+\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 2261--2269, 2017.
+
+\bibitem{Huang2018DeepMVSLM}
+Po-Han Huang, Kevin Matzen, Johannes Kopf, Narendra Ahuja, and Jia-Bin Huang.
+\newblock Deepmvs: Learning multi-view stereopsis.
+\newblock {\em 2018 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition}, pages 2821--2830, 2018.
+
+\bibitem{dav_huynh2020guiding}
+Lam Huynh, Phong Nguyen-Ha, Jiri Matas, Esa Rahtu, and Janne Heikkila.
+\newblock Guiding monocular depth estimation using depth-attention volume.
+\newblock {\em arXiv preprint arXiv:2004.02760}, 2020.
+
+\bibitem{janoch2013category}
+Allison Janoch, Sergey Karayev, Yangqing Jia, Jonathan~T Barron, Mario Fritz,
+  Kate Saenko, and Trevor Darrell.
+\newblock A category-level 3d object dataset: Putting the kinect to work.
+\newblock In {\em Consumer depth cameras for computer vision}, pages 141--165.
+  Springer, 2013.
+
+\bibitem{Kuznietsov2017}
+Yevhen Kuznietsov, J{\"o}rg St{\"u}ckler, and Bastian Leibe.
+\newblock Semi-supervised deep learning for monocular depth map prediction.
+\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 2215--2223, 2017.
+
+\bibitem{Laina2016}
+Iro Laina, Christian Rupprecht, Vasileios Belagiannis, Federico Tombari, and
+  Nassir Navab.
+\newblock Deeper depth prediction with fully convolutional residual networks.
+\newblock {\em 2016 Fourth International Conference on 3D Vision (3DV)}, pages
+  239--248, 2016.
+
+\bibitem{bts_lee2019big}
+Jin~Han Lee, Myung-Kyu Han, Dong~Wook Ko, and Il~Hong Suh.
+\newblock From big to small: Multi-scale local planar guidance for monocular
+  depth estimation.
+\newblock {\em arXiv preprint arXiv:1907.10326}, 2019.
+
+\bibitem{Lee2011}
+Wonwoo Lee, Nohyoung Park, and Woontack Woo.
+\newblock Depth-assisted real-time 3d object detection for augmented reality.
+\newblock {\em ICAT’11}, 2:126--132, 2011.
+
+\bibitem{LehtinenMHLKAA18}
+Jaakko Lehtinen, Jacob Munkberg, Jon Hasselgren, Samuli Laine, Tero Karras,
+  Miika Aittala, and Timo Aila.
+\newblock {N}oise2{N}oise: Learning image restoration without clean data.
+\newblock In Jennifer Dy and Andreas Krause, editors, {\em Proceedings of the
+  35th International Conference on Machine Learning}, volume~80 of {\em
+  Proceedings of Machine Learning Research}, pages 2965--2974,
+  Stockholmsmässan, Stockholm Sweden, 10--15 Jul 2018. PMLR.
+
+\bibitem{Liu2016LearningDF}
+Fayao Liu, Chunhua Shen, Guosheng Lin, and I. Reid.
+\newblock Learning depth from single monocular images using deep convolutional
+  neural fields.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  38:2024--2039, 2016.
+
+\bibitem{Loshchilov2019DecoupledWD}
+I. Loshchilov and F. Hutter.
+\newblock Decoupled weight decay regularization.
+\newblock In {\em ICLR}, 2019.
+
+\bibitem{moreno2007active}
+Francesc Moreno-Noguer, Peter~N. Belhumeur, and Shree~K. Nayar.
+\newblock Active refocusing of images and videos.
+\newblock {\em ACM Trans. Graph.}, 26(3), July 2007.
+
+\bibitem{pmlr-v80-parmar18a}
+Niki Parmar, Ashish Vaswani, Jakob Uszkoreit, Lukasz Kaiser, Noam Shazeer,
+  Alexander Ku, and Dustin Tran.
+\newblock Image transformer.
+\newblock In Jennifer Dy and Andreas Krause, editors, {\em Proceedings of
+  Machine Learning Research}, volume~80 of {\em Proceedings of Machine Learning
+  Research}, pages 4055--4064, Stockholmsmässan, Stockholm Sweden, 10--15 Jul
+  2018. PMLR.
+
+\bibitem{NEURIPS2019_bdbca288}
+Adam Paszke, Sam Gross, Francisco Massa, Adam Lerer, James Bradbury, Gregory
+  Chanan, Trevor Killeen, Zeming Lin, Natalia Gimelshein, Luca Antiga, Alban
+  Desmaison, Andreas Kopf, Edward Yang, Zachary DeVito, Martin Raison, Alykhan
+  Tejani, Sasank Chilamkurthy, Benoit Steiner, Lu Fang, Junjie Bai, and Soumith
+  Chintala.
+\newblock Pytorch: An imperative style, high-performance deep learning library.
+\newblock In H. Wallach, H. Larochelle, A. Beygelzimer, F. d\textquotesingle
+  Alch\'{e}-Buc, E. Fox, and R. Garnett, editors, {\em Advances in Neural
+  Information Processing Systems}, volume~32, pages 8026--8037. Curran
+  Associates, Inc., 2019.
+
+\bibitem{Ramamonjisoa_2019_ICCV}
+Michael Ramamonjisoa and Vincent Lepetit.
+\newblock Sharpnet: Fast and accurate recovery of occluding contours in
+  monocular depth estimation.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision (ICCV) Workshops}, Oct 2019.
+
+\bibitem{Ronneberger2015u}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock In {\em Medical Image Computing and Computer-Assisted Intervention --
+  MICCAI 2015}, pages 234--241, Cham, 2015. Springer International Publishing.
+
+\bibitem{Saxena2005}
+Ashutosh Saxena, Sung~H. Chung, and Andrew~Y. Ng.
+\newblock Learning depth from single monocular images.
+\newblock In {\em Proceedings of the 18th International Conference on Neural
+  Information Processing Systems}, NIPS'05, page 1161–1168, Cambridge, MA,
+  USA, 2005. MIT Press.
+
+\bibitem{Silberman2012}
+Nathan Silberman, Derek Hoiem, Pushmeet Kohli, and Rob Fergus.
+\newblock Indoor segmentation and support inference from rgbd images.
+\newblock In {\em Computer Vision -- ECCV 2012}, pages 746--760, Berlin,
+  Heidelberg, 2012. Springer Berlin Heidelberg.
+
+\bibitem{DBLP:journals/corr/abs-1708-07120}
+Leslie~N. Smith and Nicholay Topin.
+\newblock Super-convergence: Very fast training of residual networks using
+  large learning rates.
+\newblock {\em CoRR}, abs/1708.07120, 2017.
+
+\bibitem{Song2015_sunrgbd}
+S. {Song}, S.~P. {Lichtenberg}, and J. {Xiao}.
+\newblock Sun rgb-d: A rgb-d scene understanding benchmark suite.
+\newblock In {\em 2015 IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, pages 567--576, 2015.
+
+\bibitem{efficentnet_TanL19}
+Mingxing Tan and Quoc~V. Le.
+\newblock Efficientnet: Rethinking model scaling for convolutional neural
+  networks.
+\newblock In Kamalika Chaudhuri and Ruslan Salakhutdinov, editors, {\em
+  Proceedings of the 36th International Conference on Machine Learning, {ICML}
+  2019, 9-15 June 2019, Long Beach, California, {USA}}, volume~97 of {\em
+  Proceedings of Machine Learning Research}, pages 6105--6114. {PMLR}, 2019.
+
+\bibitem{Ummenhofer2017}
+Benjamin Ummenhofer, Huizhong Zhou, Jonas Uhrig, Nikolaus Mayer, Eddy Ilg,
+  Alexey Dosovitskiy, and Thomas Brox.
+\newblock Demon: Depth and motion network for learning monocular stereo.
+\newblock {\em 2017 IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR)}, pages 5622--5631, 2017.
+
+\bibitem{Wang2004SSIM}
+Jiheng Wang, Alan~C. Bovik, Hamid~R. Sheikh, and Eero~P. Simoncelli.
+\newblock Image quality assessment: from error visibility to structural
+  similarity.
+\newblock {\em IEEE Transactions on Image Processing}, 13:600--612, 2004.
+
+\bibitem{Wang_2018_CVPR}
+Xiaolong Wang, Ross Girshick, Abhinav Gupta, and Kaiming He.
+\newblock Non-local neural networks.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, June 2018.
+
+\bibitem{sun6751312}
+J. {Xiao}, A. {Owens}, and A. {Torralba}.
+\newblock Sun3d: A database of big spaces reconstructed using sfm and object
+  labels.
+\newblock In {\em 2013 IEEE International Conference on Computer Vision}, pages
+  1625--1632, 2013.
+
+\bibitem{Xu2017}
+Dan Xu, Elisa Ricci, Wanli Ouyang, Xiaogang Wang, and Nicu Sebe.
+\newblock Multi-scale continuous crfs as sequential deep networks for monocular
+  depth estimation.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 5354--5362, 2017.
+
+\bibitem{Xu2018StructuredAG}
+Dong Xu, Wei Wang, Hao Tang, Hong~W. Liu, Nicu Sebe, and Elisa Ricci.
+\newblock Structured attention guided convolutional neural fields for monocular
+  depth estimation.
+\newblock {\em 2018 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition}, pages 3917--3925, 2018.
+
+\bibitem{Yin_2019_ICCV}
+Wei Yin, Yifan Liu, Chunhua Shen, and Youliang Yan.
+\newblock Enforcing geometric constraints of virtual normal for depth
+  prediction.
+\newblock In {\em Proceedings of the IEEE/CVF International Conference on
+  Computer Vision (ICCV)}, October 2019.
+
+\bibitem{Zhou2018DeepTAMDT}
+Huizhong Zhou, Benjamin Ummenhofer, and Thomas Brox.
+\newblock Deeptam: Deep tracking and mapping.
+\newblock In {\em Proceedings of the European Conference on Computer Vision
+  (ECCV)}, pages 822--838, 2018.
+
+\end{thebibliography}

@@ -60,6 +60,7 @@
 
 % 定义代码样式
 \definecolor{gray}{rgb}{0.96,0.96,0.96}
+\definecolor{vipblue}{RGB}{41,98,255}
 
 \lstset{ %
   language=python,                % the language of the code
