@@ -86,7 +86,7 @@ Bins 的设计选择对获得的结果质量非常重要。首先，为了说明
 	\item AdaBins：自适应计算每个图像的 bin 宽度 $b$。
  \end{itemize}
  
-通过实验，本文认为 AdaBins 策略是最佳选择。图 3 显示了箱宽的四种设计选择。
+通过实验，本文认为 AdaBins 策略是最佳选择。图 \ref{fig:binchoices} 显示了箱宽的四种设计选择。
 
 \begin{figure}[!htbp]
 \centering
@@ -118,7 +118,7 @@ Bins 的设计选择对获得的结果质量非常重要。首先，为了说明
 \begin{figure*}[!htbp]
 \centering
 	\includegraphics[width=.7\paperwidth]{figure/network_overview}
-	\caption{A straightforward encoder-decoder architecture with skip connections. The encoder part is a pre-trained truncated DenseNet-169 with no additional modifications. The decoder is composed of basic blocks of convolutional layers applied on the concatenation of the $2\times$ bilinear upsampling of the previous block with the block in the encoder with the same spatial size after upsampling. }
+	\caption{A straightforward encoder-decoder architecture with skip connections. The encoder part is a pre-trained truncated DenseNet-169 with no additional modifications. The decoder is composed of basic blocks of convolutional layers applied on the concatenation of the $2\times$ bilinear upsampling of the previous block with the block in the encoder with the same spatial size after upsampling.}
 	\label{fig:model2}
 \end{figure*}
 
@@ -149,11 +149,11 @@ AdaBins 模块中的第一个块叫做 mini-ViT，如图 \ref{fig:vit} 所示。
 	\label{fig:vit}
 \end{figure*}
 
-\subsection{Mini-ViT}
+\subsubsection{Mini-ViT}
 
 对于给定的图像，估计其深度范围 $D$ 内更可能出现的子间隔需要同时结合局部结构信息和全局分布信息。本文提出使用全局注意力来计算每个输入图像的 bin 宽度向量 $\textbf{b}$。无论是内存还是计算复杂度，全局注意力都是很“昂贵”的，尤其是在较高的分辨率下。然而，最近 Transformer 的快速发展提供了一些有效的替代方案。本文在设计基于 Transformer 的 AdaBins 模块时，从视觉 Transformer (ViT) 中获得了灵感。由于本文使用的数据集更小，因而使用了一个更小版本的 Transformer 编码器，即 mini-ViT 或 mViT，其参数如表 \ref{tab:arch-mvit} 所示。
 
-\subsection{Mini-ViT}
+\subsubsection{Bin-widths}
 
 mViT 的输入是解码特征 $\mathbf{x_d}\in~\mathbb{R}^{h \times w \times C_d}$ 的张量。然而，Transformer 以一系列固定大小的向量作为输入。首先将解码后的特征通过一个称为 \textit{Embedding Conv} 的卷积块（如图 \ref{fig:vit} 所示），其卷积核大小为 $p\times p$，步长为 $p$，输出通道数为 $E$。因此，该卷积的结果是大小为 $h/p~\times~w/p~\times E$ 的张量(假设 $h$ 和 $w$ 都可以被 $p$ 整除)。结果被重新排列为空间展平张量 $\mathbf{x_p}~\in~\mathbb{R}^{S\times E}$，$S=\frac{hw}{p^2}$ 作为 Transformer 的有效序列长度，称这个 $E$ 维向量的序列为 \textit{patch embeddings}。
 
